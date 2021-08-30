@@ -1,5 +1,9 @@
 import requests
 #
+# Script en python que consulta la api de pokemon
+# para listar los nombres de pokemon pero se le agego
+# interacción para que listaras mas pokemons segun se vaya requiriendo.
+#
 def get_pokemons(url='http://pokeapi.co/api/v2/pokemon-form/', offset=0):
 	args = {'offset':offset} if offset else {}
 	
