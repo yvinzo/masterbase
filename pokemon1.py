@@ -1,6 +1,7 @@
 import requests
 #
-#
+# Proposito: Consulta la api de pokemon
+# para listar los nombres de pokemon.
 if __name__ == '__main__':
     url = 'https://pokeapi.co/api/v2/pokemon-form/'
 
