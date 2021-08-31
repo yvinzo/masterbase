@@ -22,7 +22,9 @@ def get_pokemons(url='http://pokeapi.co/api/v2/pokemon-form/', offset=0):
 		next = input("¿Continuar listando? [Y/N]").lower()
 		if next == 'y':
 			get_pokemons(offset=offset+20)
-			
+#
+## Fin de Funcion 
+#
 if __name__ == '__main__':
 	url = 'http://pokeapi.co/api/v2/pokemon-form/'
 	get_pokemons()
